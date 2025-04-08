@@ -6,6 +6,23 @@ This project demonstrates unsupervised machine learning techniques using **K-Mea
 
 - `Unsupervised.ipynb`: Jupyter Notebook that performs clustering analysis on a dataset using K-Means and Agglomerative Clustering.
 
+## 🗂 Dataset Used
+
+**Mall Customers Dataset**  
+This dataset contains demographic and behavioral information about mall customers and includes the following features:
+
+- `CustomerID`
+- `Gender`
+- `Age`
+- `Annual Income (k$)`
+- `Spending Score (1–100)`
+
+### 📌 Features Used for Clustering:
+- **Age**
+- **Annual Income (k$)**
+
+The notebook performs clustering based on the relationship between **Age** and **Annual Income**, helping to identify customer segments like young high earners, older low earners, etc.
+
 ## 🧠 Algorithms Used
 
 ### 1. K-Means Clustering
